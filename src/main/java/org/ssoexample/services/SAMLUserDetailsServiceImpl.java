@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class SAMLUserService implements SAMLUserDetailsService {
+public class SAMLUserDetailsServiceImpl implements SAMLUserDetailsService {
 
   @Autowired
   private UsersRepository usersRepository;

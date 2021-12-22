@@ -11,6 +11,13 @@ okta:
   sp:
     host: localhost:8443
 
+saml:
+  load-balancer:
+    scheme: http
+    server-port: 8081
+    server-name: my.load.balancer.aws.id.com
+    context-path: /context-path
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/userdemo
